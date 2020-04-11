@@ -16,6 +16,8 @@
 		834FC7F4244195880078BC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834FC7F2244195880078BC6A /* LaunchScreen.storyboard */; };
 		834FC7FF244195880078BC6A /* Simple_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FC7FE244195880078BC6A /* Simple_GridTests.swift */; };
 		834FC80A244195880078BC6A /* Simple_GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FC809244195880078BC6A /* Simple_GridUITests.swift */; };
+		834FC8182441C2400078BC6A /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FC8172441C2400078BC6A /* Dish.swift */; };
+		834FC81A2441C8800078BC6A /* Array+Exstensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FC8192441C8800078BC6A /* Array+Exstensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		834FC805244195880078BC6A /* Simple GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple GridUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834FC809244195880078BC6A /* Simple_GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_GridUITests.swift; sourceTree = "<group>"; };
 		834FC80B244195880078BC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834FC8172441C2400078BC6A /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		834FC8192441C8800078BC6A /* Array+Exstensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Exstensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				834FC7F5244195880078BC6A /* Info.plist */,
 				834FC7E8244195810078BC6A /* Simple_Grid.xcdatamodeld */,
 				834FC7EF244195880078BC6A /* Preview Content */,
+				834FC8172441C2400078BC6A /* Dish.swift */,
+				834FC8192441C8800078BC6A /* Array+Exstensions.swift */,
 			);
 			path = "Simple Grid";
 			sourceTree = "<group>";
@@ -271,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				834FC7EA244195810078BC6A /* Simple_Grid.xcdatamodeld in Sources */,
+				834FC81A2441C8800078BC6A /* Array+Exstensions.swift in Sources */,
+				834FC8182441C2400078BC6A /* Dish.swift in Sources */,
 				834FC7E5244195810078BC6A /* AppDelegate.swift in Sources */,
 				834FC7EC244195810078BC6A /* ContentView.swift in Sources */,
 				834FC7E7244195810078BC6A /* SceneDelegate.swift in Sources */,
